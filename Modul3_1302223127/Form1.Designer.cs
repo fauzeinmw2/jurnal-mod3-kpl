@@ -28,156 +28,169 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
+            this.labelHasil = new System.Windows.Forms.Label();
+            this.btnPenjumlahan = new System.Windows.Forms.Button();
+            this.btnSamaDengan = new System.Windows.Forms.Button();
+            this.btnAngka0 = new System.Windows.Forms.Button();
+            this.btnAngka1 = new System.Windows.Forms.Button();
+            this.btnAngka2 = new System.Windows.Forms.Button();
+            this.btnAngka3 = new System.Windows.Forms.Button();
+            this.btnAngka4 = new System.Windows.Forms.Button();
+            this.btnAngka5 = new System.Windows.Forms.Button();
+            this.btnAngka6 = new System.Windows.Forms.Button();
+            this.btnAngka7 = new System.Windows.Forms.Button();
+            this.btnAngka8 = new System.Windows.Forms.Button();
+            this.btnAngka9 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // labelHasil
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(67, 53);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.labelHasil.AutoSize = true;
+            this.labelHasil.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.labelHasil.Location = new System.Drawing.Point(67, 53);
+            this.labelHasil.Name = "labelHasil";
+            this.labelHasil.Size = new System.Drawing.Size(13, 13);
+            this.labelHasil.TabIndex = 0;
+            this.labelHasil.Text = "0";
             // 
-            // button1
+            // btnPenjumlahan
             // 
-            this.button1.Location = new System.Drawing.Point(70, 82);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(32, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "+";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnPenjumlahan.Location = new System.Drawing.Point(70, 82);
+            this.btnPenjumlahan.Name = "btnPenjumlahan";
+            this.btnPenjumlahan.Size = new System.Drawing.Size(32, 23);
+            this.btnPenjumlahan.TabIndex = 1;
+            this.btnPenjumlahan.Text = "+";
+            this.btnPenjumlahan.UseVisualStyleBackColor = true;
+            this.btnPenjumlahan.Click += new System.EventHandler(this.btnPenjumlahan_Click);
             // 
-            // button2
+            // btnSamaDengan
             // 
-            this.button2.Location = new System.Drawing.Point(108, 82);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(32, 23);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "=";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnSamaDengan.Location = new System.Drawing.Point(108, 82);
+            this.btnSamaDengan.Name = "btnSamaDengan";
+            this.btnSamaDengan.Size = new System.Drawing.Size(32, 23);
+            this.btnSamaDengan.TabIndex = 2;
+            this.btnSamaDengan.Text = "=";
+            this.btnSamaDengan.UseVisualStyleBackColor = true;
+            this.btnSamaDengan.Click += new System.EventHandler(this.btnSamaDengan_Click);
             // 
-            // button3
+            // btnAngka0
             // 
-            this.button3.Location = new System.Drawing.Point(146, 82);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(32, 23);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "0";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnAngka0.Location = new System.Drawing.Point(146, 82);
+            this.btnAngka0.Name = "btnAngka0";
+            this.btnAngka0.Size = new System.Drawing.Size(32, 23);
+            this.btnAngka0.TabIndex = 3;
+            this.btnAngka0.Text = "0";
+            this.btnAngka0.UseVisualStyleBackColor = true;
+            this.btnAngka0.Click += new System.EventHandler(this.btnAngka0_Click);
             // 
-            // button4
+            // btnAngka1
             // 
-            this.button4.Location = new System.Drawing.Point(70, 111);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(32, 23);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "1";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnAngka1.Location = new System.Drawing.Point(70, 111);
+            this.btnAngka1.Name = "btnAngka1";
+            this.btnAngka1.Size = new System.Drawing.Size(32, 23);
+            this.btnAngka1.TabIndex = 4;
+            this.btnAngka1.Text = "1";
+            this.btnAngka1.UseVisualStyleBackColor = true;
+            this.btnAngka1.Click += new System.EventHandler(this.btnAngka1_Click);
             // 
-            // button5
+            // btnAngka2
             // 
-            this.button5.Location = new System.Drawing.Point(108, 111);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(32, 23);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "2";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnAngka2.Location = new System.Drawing.Point(108, 111);
+            this.btnAngka2.Name = "btnAngka2";
+            this.btnAngka2.Size = new System.Drawing.Size(32, 23);
+            this.btnAngka2.TabIndex = 5;
+            this.btnAngka2.Text = "2";
+            this.btnAngka2.UseVisualStyleBackColor = true;
+            this.btnAngka2.Click += new System.EventHandler(this.btnAngka2_Click);
             // 
-            // button6
+            // btnAngka3
             // 
-            this.button6.Location = new System.Drawing.Point(146, 111);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(32, 23);
-            this.button6.TabIndex = 6;
-            this.button6.Text = "3";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnAngka3.Location = new System.Drawing.Point(146, 111);
+            this.btnAngka3.Name = "btnAngka3";
+            this.btnAngka3.Size = new System.Drawing.Size(32, 23);
+            this.btnAngka3.TabIndex = 6;
+            this.btnAngka3.Text = "3";
+            this.btnAngka3.UseVisualStyleBackColor = true;
+            this.btnAngka3.Click += new System.EventHandler(this.btnAngka3_Click);
             // 
-            // button7
+            // btnAngka4
             // 
-            this.button7.Location = new System.Drawing.Point(70, 140);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(32, 23);
-            this.button7.TabIndex = 7;
-            this.button7.Text = "4";
-            this.button7.UseVisualStyleBackColor = true;
+            this.btnAngka4.Location = new System.Drawing.Point(70, 140);
+            this.btnAngka4.Name = "btnAngka4";
+            this.btnAngka4.Size = new System.Drawing.Size(32, 23);
+            this.btnAngka4.TabIndex = 7;
+            this.btnAngka4.Text = "4";
+            this.btnAngka4.UseVisualStyleBackColor = true;
+            this.btnAngka4.Click += new System.EventHandler(this.btnAngka4_Click);
             // 
-            // button8
+            // btnAngka5
             // 
-            this.button8.Location = new System.Drawing.Point(108, 140);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(32, 23);
-            this.button8.TabIndex = 8;
-            this.button8.Text = "5";
-            this.button8.UseVisualStyleBackColor = true;
+            this.btnAngka5.Location = new System.Drawing.Point(108, 140);
+            this.btnAngka5.Name = "btnAngka5";
+            this.btnAngka5.Size = new System.Drawing.Size(32, 23);
+            this.btnAngka5.TabIndex = 8;
+            this.btnAngka5.Text = "5";
+            this.btnAngka5.UseVisualStyleBackColor = true;
+            this.btnAngka5.Click += new System.EventHandler(this.btnAngka5_Click);
             // 
-            // button9
+            // btnAngka6
             // 
-            this.button9.Location = new System.Drawing.Point(146, 140);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(32, 23);
-            this.button9.TabIndex = 9;
-            this.button9.Text = "6";
-            this.button9.UseVisualStyleBackColor = true;
+            this.btnAngka6.Location = new System.Drawing.Point(146, 140);
+            this.btnAngka6.Name = "btnAngka6";
+            this.btnAngka6.Size = new System.Drawing.Size(32, 23);
+            this.btnAngka6.TabIndex = 9;
+            this.btnAngka6.Text = "6";
+            this.btnAngka6.UseVisualStyleBackColor = true;
+            this.btnAngka6.Click += new System.EventHandler(this.btnAngka6_Click);
             // 
-            // button10
+            // btnAngka7
             // 
-            this.button10.Location = new System.Drawing.Point(70, 169);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(32, 23);
-            this.button10.TabIndex = 10;
-            this.button10.Text = "7";
-            this.button10.UseVisualStyleBackColor = true;
+            this.btnAngka7.Location = new System.Drawing.Point(70, 169);
+            this.btnAngka7.Name = "btnAngka7";
+            this.btnAngka7.Size = new System.Drawing.Size(32, 23);
+            this.btnAngka7.TabIndex = 10;
+            this.btnAngka7.Text = "7";
+            this.btnAngka7.UseVisualStyleBackColor = true;
+            this.btnAngka7.Click += new System.EventHandler(this.btnAngka7_Click);
             // 
-            // button11
+            // btnAngka8
             // 
-            this.button11.Location = new System.Drawing.Point(108, 169);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(32, 23);
-            this.button11.TabIndex = 11;
-            this.button11.Text = "8";
-            this.button11.UseVisualStyleBackColor = true;
+            this.btnAngka8.Location = new System.Drawing.Point(108, 169);
+            this.btnAngka8.Name = "btnAngka8";
+            this.btnAngka8.Size = new System.Drawing.Size(32, 23);
+            this.btnAngka8.TabIndex = 11;
+            this.btnAngka8.Text = "8";
+            this.btnAngka8.UseVisualStyleBackColor = true;
+            this.btnAngka8.Click += new System.EventHandler(this.btnAngka8_Click);
             // 
-            // button12
+            // btnAngka9
             // 
-            this.button12.Location = new System.Drawing.Point(146, 169);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(32, 23);
-            this.button12.TabIndex = 12;
-            this.button12.Text = "9";
-            this.button12.UseVisualStyleBackColor = true;
+            this.btnAngka9.Location = new System.Drawing.Point(146, 169);
+            this.btnAngka9.Name = "btnAngka9";
+            this.btnAngka9.Size = new System.Drawing.Size(32, 23);
+            this.btnAngka9.TabIndex = 12;
+            this.btnAngka9.Text = "9";
+            this.btnAngka9.UseVisualStyleBackColor = true;
+            this.btnAngka9.Click += new System.EventHandler(this.btnAngka9_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(294, 276);
-            this.Controls.Add(this.button12);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnAngka9);
+            this.Controls.Add(this.btnAngka8);
+            this.Controls.Add(this.btnAngka7);
+            this.Controls.Add(this.btnAngka6);
+            this.Controls.Add(this.btnAngka5);
+            this.Controls.Add(this.btnAngka4);
+            this.Controls.Add(this.btnAngka3);
+            this.Controls.Add(this.btnAngka2);
+            this.Controls.Add(this.btnAngka1);
+            this.Controls.Add(this.btnAngka0);
+            this.Controls.Add(this.btnSamaDengan);
+            this.Controls.Add(this.btnPenjumlahan);
+            this.Controls.Add(this.labelHasil);
             this.Name = "Form1";
             this.Text = "Jurnal Modul 3";
             this.ResumeLayout(false);
@@ -187,19 +200,19 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Label labelHasil;
+        private System.Windows.Forms.Button btnPenjumlahan;
+        private System.Windows.Forms.Button btnSamaDengan;
+        private System.Windows.Forms.Button btnAngka0;
+        private System.Windows.Forms.Button btnAngka1;
+        private System.Windows.Forms.Button btnAngka2;
+        private System.Windows.Forms.Button btnAngka3;
+        private System.Windows.Forms.Button btnAngka4;
+        private System.Windows.Forms.Button btnAngka5;
+        private System.Windows.Forms.Button btnAngka6;
+        private System.Windows.Forms.Button btnAngka7;
+        private System.Windows.Forms.Button btnAngka8;
+        private System.Windows.Forms.Button btnAngka9;
     }
 }
 
